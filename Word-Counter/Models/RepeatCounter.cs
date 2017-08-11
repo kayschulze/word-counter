@@ -8,17 +8,39 @@ namespace WordCounter.Models
     string _inputtedString;
     string _inputtedWord;
     int _wordInstances;
-    List<string> _stringsToWordsList = new List<string> {};
+    string [] _stringsToWordsArray;
 
     public RepeatCounter(string inputtedString, string inputtedWord)
     {
       _inputtedString = inputtedString;
       _inputtedWord = inputtedWord;
+      _wordInstances = 0;
+    }
+
+    //Takes inputted string and separates the string based on spaces and punctuation.
+    public void CreateStringArray()
+    {
+      char [] splitCharacters = {' ', '.', '?', '!', ':', ';'};
+      _stringsToWordsArray = _inputtedString.Split(splitCharacters);
+    }
+
+    public void CountWordsInString()
+    {
+      foreach (string word in _stringsToWordsArray)
+      {
+        if (word == _inputtedWord)
+        {
+          _wordInstances += 1;
+        }
+      }
     }
 
     public int CountRepeats()
     {
-      return 0;
+      CreateStringArray();
+      CountWordsInString();
+
+      return _wordInstances;
     }
   }
 }
