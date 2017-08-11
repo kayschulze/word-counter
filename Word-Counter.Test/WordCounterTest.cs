@@ -12,9 +12,10 @@ namespace WordCounter.Test
     public void CountRepeats_CountOneInstanceOfWord_True()
     {
       //Arrange
-      expectedValue = 1;
+      int expectedValue = 1;
       string originalString = "I used to own a cat";
-      RepeatCounter newCounter = new RepeatCounter(originalString);
+      string originalWord = "cat";
+      RepeatCounter newCounter = new RepeatCounter(originalString, originalWord);
 
       //Act
       int actualValue = newCounter.CountRepeats();
