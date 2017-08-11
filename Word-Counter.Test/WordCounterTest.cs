@@ -9,11 +9,11 @@ namespace WordCounter.Test
   public class WordCounterTest
   {
     [TestMethod]
-    public void CountRepeats_CountOneInstanceOfWord_True()
+    public void CountRepeats_CountMultipleInstancesOfWord_True()
     {
       //Arrange
-      int expectedValue = 1;
-      string originalString = "I used to own a cat";
+      int expectedValue = 2;
+      string originalString = "The cat that I like the most is Callie cat";
       string originalWord = "cat";
       RepeatCounter newCounter = new RepeatCounter(originalString, originalWord);
 
@@ -25,11 +25,11 @@ namespace WordCounter.Test
     }
 
     [TestMethod]
-    public void CountRepeats_CountMultipleInstancesOfWord_True()
+    public void CountRepeats_CountWordsDespite_Case_True()
     {
       //Arrange
       int expectedValue = 2;
-      string originalString = "The cat that I like the most is Callie cat";
+      string originalString = "Cat toys include cap nip";
       string originalWord = "cat";
       RepeatCounter newCounter = new RepeatCounter(originalString, originalWord);
 
