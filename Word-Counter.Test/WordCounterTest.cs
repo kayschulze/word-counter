@@ -44,16 +44,17 @@ namespace WordCounter.Test
     public void CountRepeats_CountWordsDespitePunctuation_True()
     {
       //Arrange
-      int expectedValue = 2;
-      string originalString = "Callie cat is my favorite cat.";
+      int expectedValue = 1;
+      string originalString = "Cats and dogs are my favorite";
       string originalWord = "cat";
       RepeatCounter newCounter = new RepeatCounter(originalString, originalWord);
 
       //Act
-      int actualValue = newCounter.CountRepeats();
+      int actualValue = newCounter.CountRepeatsIncludePlural();
 
       //Assert
       Assert.AreEqual(expectedValue, actualValue);
     }
+
   }
 }
