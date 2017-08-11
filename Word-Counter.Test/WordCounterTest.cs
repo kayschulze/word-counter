@@ -29,7 +29,7 @@ namespace WordCounter.Test
     {
       //Arrange
       int expectedValue = 2;
-      string originalString = "Cat toys include cap nip";
+      string originalString = "Cat toys include cat nip";
       string originalWord = "cat";
       RepeatCounter newCounter = new RepeatCounter(originalString, originalWord);
 
