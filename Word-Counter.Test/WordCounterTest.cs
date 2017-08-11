@@ -25,7 +25,7 @@ namespace WordCounter.Test
     }
 
     [TestMethod]
-    public void CountRepeats_CountWordsDespite_Case_True()
+    public void CountRepeats_CountWordsDespiteCase_True()
     {
       //Arrange
       int expectedValue = 2;
@@ -40,5 +40,20 @@ namespace WordCounter.Test
       Assert.AreEqual(expectedValue, actualValue);
     }
 
+    [TestMethod]
+    public void CountRepeats_CountWordsDespitePunctuation_True()
+    {
+      //Arrange
+      int expectedValue = 2;
+      string originalString = "Callie cat is my favorite cat.";
+      string originalWord = "cat";
+      RepeatCounter newCounter = new RepeatCounter(originalString, originalWord);
+
+      //Act
+      int actualValue = newCounter.CountRepeats();
+
+      //Assert
+      Assert.AreEqual(expectedValue, actualValue);
+    }
   }
 }
