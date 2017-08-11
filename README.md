@@ -2,7 +2,7 @@
 
 #### _Finds the number of instances of a certain word in a string, August 11, 2017_
 
-#### By _Kim Schulze**_
+#### By _**Kim Schulze**_
 
 ## Description
 
