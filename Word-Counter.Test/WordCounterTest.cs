@@ -15,7 +15,7 @@ namespace WordCounter.Test
       int expectedValue = 2;
       string originalString = "The cat that I like the most is Callie cat";
       string originalWord = "cat";
-      RepeatCounter newCounter = new RepeatCounter(originalString, originalWord);
+      RepeatCounter newCounter = new RepeatCounter(originalWord, originalString);
 
       //Act
       int actualValue = newCounter.CountRepeats();
@@ -31,7 +31,7 @@ namespace WordCounter.Test
       int expectedValue = 2;
       string originalString = "Cat toys include cat nip";
       string originalWord = "cat";
-      RepeatCounter newCounter = new RepeatCounter(originalString, originalWord);
+      RepeatCounter newCounter = new RepeatCounter(originalWord, originalString);
 
       //Act
       int actualValue = newCounter.CountRepeats();
