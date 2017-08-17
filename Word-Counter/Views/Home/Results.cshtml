@@ -1,0 +1,15 @@
+@{
+  Layout = "_Layout";
+}
+
+<div class="row">
+  <div class="col-md-4"></div>
+  <div class="col-md-4 result">
+    <h2>Word: @Model.GetWord()</h2>
+    <h2>Number of words: @Model.CountRepeats()</h2>
+    <div class="original"><h2>Phrase: @Model.GetPhrase()</h2></div>
+    <a href="/"><button type="button" class="btn-primary">Go back</button></a>
+  </div>
+  </div>
+  <div class="col-md-4"></div>
+</div>

@@ -11,3 +11,16 @@
 /Users/Guest/Desktop/Word-Counter.Solutions/Word-Counter.Test/bin/Debug/netcoreapp1.1/WordCounter.pdb
 /Users/Guest/Desktop/Word-Counter.Solutions/Word-Counter.Test/obj/Debug/netcoreapp1.1/WordCounterTest.dll
 /Users/Guest/Desktop/Word-Counter.Solutions/Word-Counter.Test/obj/Debug/netcoreapp1.1/WordCounterTest.pdb
+C:\Users\kayob\Desktop\Epicodus\word-counter\Word-Counter.Test\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\kayob\Desktop\Epicodus\word-counter\Word-Counter.Test\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\kayob\Desktop\Epicodus\word-counter\Word-Counter.Test\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\kayob\Desktop\Epicodus\word-counter\Word-Counter.Test\bin\Debug\netcoreapp1.1\WordCounterTest.deps.json
+C:\Users\kayob\Desktop\Epicodus\word-counter\Word-Counter.Test\bin\Debug\netcoreapp1.1\WordCounterTest.runtimeconfig.json
+C:\Users\kayob\Desktop\Epicodus\word-counter\Word-Counter.Test\bin\Debug\netcoreapp1.1\WordCounterTest.runtimeconfig.dev.json
+C:\Users\kayob\Desktop\Epicodus\word-counter\Word-Counter.Test\bin\Debug\netcoreapp1.1\WordCounterTest.dll
+C:\Users\kayob\Desktop\Epicodus\word-counter\Word-Counter.Test\bin\Debug\netcoreapp1.1\WordCounterTest.pdb
+C:\Users\kayob\Desktop\Epicodus\word-counter\Word-Counter.Test\bin\Debug\netcoreapp1.1\WordCounter.dll
+C:\Users\kayob\Desktop\Epicodus\word-counter\Word-Counter.Test\bin\Debug\netcoreapp1.1\WordCounter.pdb
+C:\Users\kayob\Desktop\Epicodus\word-counter\Word-Counter.Test\obj\Debug\netcoreapp1.1\WordCounterTest.AssemblyInfo.cs
+C:\Users\kayob\Desktop\Epicodus\word-counter\Word-Counter.Test\obj\Debug\netcoreapp1.1\WordCounterTest.dll
+C:\Users\kayob\Desktop\Epicodus\word-counter\Word-Counter.Test\obj\Debug\netcoreapp1.1\WordCounterTest.pdb

@@ -1,0 +1,37 @@
+body {
+  background-image: url("/img/letters.jpg");
+  background-size: 90%;
+  font-family: 'Lobster Two', cursive;
+}
+
+h1 {
+  background-color: red;
+  text-align: center;
+  border-radius: 30px;
+}
+
+.enter {
+  background-color: beige;
+  padding: 20px;
+  font-size: 25px;
+  border-radius: 15px;
+}
+
+.result {
+  background-color: lightgreen;
+  border-radius: 15px;
+  font-family: 'Dancing Script', cursive;
+}
+
+.original {
+  background-image: url("/img/linedpaper.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 30px;
+  height: 200px;
+  padding-left: 70px;
+}
+
+button {
+  margin: 10px;
+}

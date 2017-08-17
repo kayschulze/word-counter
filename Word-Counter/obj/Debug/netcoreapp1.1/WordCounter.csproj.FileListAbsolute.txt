@@ -6,3 +6,11 @@
 /Users/Guest/Desktop/Word-Counter.Solutions/Word-Counter/obj/Debug/netcoreapp1.1/WordCounter.AssemblyInfo.cs
 /Users/Guest/Desktop/Word-Counter.Solutions/Word-Counter/obj/Debug/netcoreapp1.1/WordCounter.dll
 /Users/Guest/Desktop/Word-Counter.Solutions/Word-Counter/obj/Debug/netcoreapp1.1/WordCounter.pdb
+C:\Users\kayob\Desktop\Epicodus\word-counter\Word-Counter\bin\Debug\netcoreapp1.1\WordCounter.deps.json
+C:\Users\kayob\Desktop\Epicodus\word-counter\Word-Counter\bin\Debug\netcoreapp1.1\WordCounter.runtimeconfig.json
+C:\Users\kayob\Desktop\Epicodus\word-counter\Word-Counter\bin\Debug\netcoreapp1.1\WordCounter.runtimeconfig.dev.json
+C:\Users\kayob\Desktop\Epicodus\word-counter\Word-Counter\bin\Debug\netcoreapp1.1\WordCounter.dll
+C:\Users\kayob\Desktop\Epicodus\word-counter\Word-Counter\bin\Debug\netcoreapp1.1\WordCounter.pdb
+C:\Users\kayob\Desktop\Epicodus\word-counter\Word-Counter\obj\Debug\netcoreapp1.1\WordCounter.AssemblyInfo.cs
+C:\Users\kayob\Desktop\Epicodus\word-counter\Word-Counter\obj\Debug\netcoreapp1.1\WordCounter.dll
+C:\Users\kayob\Desktop\Epicodus\word-counter\Word-Counter\obj\Debug\netcoreapp1.1\WordCounter.pdb
